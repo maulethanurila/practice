@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.пример {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #4caf50;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.пример.центрирование {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.пример.равномерное-распределение {
+    justify-content: space-around;
+}
+
+.пример.прижать-к-низу {
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.пример.столбик-справа {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.пример.равное-пространство {
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.пример.перенос {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.пример.края-и-центр {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.пример.конец-с-пробелами {
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.пример.разная-высота {
+    align-items: flex-end;
+}
+
+.пример.боковые-отступы {
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.пример.одинаковая-ширина {
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.пример.равномерное-заполнение {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.пример.справа {
+    justify-content: flex-end;
+}
+
+.пример.центральный-заполняет {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.пример.фиксированная-ширина {
+    justify-content: space-between;
+}
+
+.пример.по-центру-вертикали {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.пример.справа-конец {
+    justify-content: flex-end;
+}
+
+.пример.три-строки {
+    flex-direction: column;
+}
+
+.пример.соседние-пробелы {
+    justify-content: space-around;
+}
+
+.пример.одинаковая-высота {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.элемент {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.элемент.маленький {
+    height: 40px;
+}
+
+.элемент.средний {
+    height: 60px;
+}
+
+.элемент.большой {
+    height: 80px;
+}
+
+.элемент.фикс {
+    width: 100px;
+}
