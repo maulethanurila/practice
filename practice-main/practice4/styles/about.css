@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F6F6;
+    color: #000;
+    text-align: center;
+}
+
+.about {
+    padding: 50px;
+    margin-top: -30px; /* Поднимаем текст вверх */
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 420px;
+    height: 0px;
+    border-top: 1px solid #000;
+    margin: 20px auto;
+    opacity: 1;
+} 

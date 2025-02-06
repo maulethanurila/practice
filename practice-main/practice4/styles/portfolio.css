@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F6F6;
+    color: #000;
+    text-align: center;
+}
+
+.portfolio {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 950px;
+}
+
+.image-container img {
+    width: 950px;
+    height: 655px;
+    object-fit: cover;
+    display: block;
+}
+
+.image-container p {
+    width: 661px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
